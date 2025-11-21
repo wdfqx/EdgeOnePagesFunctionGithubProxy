@@ -38,7 +38,7 @@ async function handleRequest(request) {
   
   // 检查特殊路径重定向
   if (redirect_paths.includes(url.pathname)) {
-    return Response.redirect('https://www.gov.cn', 302);
+    return Response.redirect('https://www.987632.xyz', 302);
   }
 
   // 强制使用 HTTPS
